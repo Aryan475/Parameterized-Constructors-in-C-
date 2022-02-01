@@ -1,28 +1,20 @@
 #include<iostream>
 using namespace std;
-class complex
-{
+class point {
     int a,b;
     public:
-    complex(int,int);
+    point(int x,int y)
+    {
+        a=x;
+        b=y;
+    }
     void print()
     {
-        cout<<"No is:"<<a<<"+"<<b<<"i"<<endl;
+        cout<<"Point is:("<<a<<","<<b<<")"<<endl;
     }
-    
 };
-complex::complex (int x,int y)
-{
-    a=x;
-    b=y;
-    
-}
 int main()
 {
-    complex d(4,5);//implict call
-    complex e=complex(8,9);//explicit call
-    d.print();
-    e.print();
+    point g(1,2);
+    g.print();
 }
-    
-    
