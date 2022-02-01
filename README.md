@@ -1,2 +1,2 @@
-# Parameterized-Constructors-in-C-
+# Parameterized-Constructors-in-C++-
 Parmeterized Constructor
